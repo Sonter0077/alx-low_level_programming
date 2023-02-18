@@ -1,9 +1,8 @@
-#!/bin/bash
 #include<stdio.h>
 /**
- * main - Entry point
+ * main - A program that prints the size of various types of computer
  *
- * Return: Always O (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -12,5 +11,5 @@ int main(void)
 	printf("size of a long int: %d byte(s)\n", sizeof(long int));
 	printf("size of a long long int: %d byte(s)\n", sizeof(long long int));
 	printf("size of a float: %d byte(s)\n", sizeof(float));
-	return (O);
+	return (0);
 }

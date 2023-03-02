@@ -1,14 +1,12 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 
-/** 
- * main - main function to generate a random number 
+/**
+ * main - Determines if a number is positive, negative or zero.
  *
- * Retutn: always 0 (success)
- *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
@@ -17,15 +15,16 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is postive\n", n);
+		printf("%d is positive\n", n);
 	}
-	if else (n == 0)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
-	if else (n < 0)
+	else
 	{
-                printf("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
+
